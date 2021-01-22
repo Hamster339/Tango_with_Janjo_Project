@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'tango_with_Janjo_Project.urls'
+ROOT_URLCONF = 'tango_with_django_project.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'tango_with_Janjo_Project.wsgi.application'
+WSGI_APPLICATION = 'tango_with_django_project.wsgi.application'
 
 
 # Database
