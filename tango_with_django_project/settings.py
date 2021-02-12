@@ -131,3 +131,5 @@ MEDIA_ROOT = MEDIA_DIR
 # login
 LOGIN_URL = 'rango:login'
 
+# sessions
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
